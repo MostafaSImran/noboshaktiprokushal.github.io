@@ -405,9 +405,9 @@ products_body = page_header(
       </div>
       <div class="reveal">
         <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 shadow-xl">
-          <img src="card-energy.webp" alt="Solar and biogas renewable energy installation by NSP" class="w-full object-cover" loading="lazy" />
+          <img src="rooftop-solar-nsp.webp" alt="NSP rooftop solar installation with hydroponic garden" class="w-full object-cover" loading="lazy" />
         </div>
-        <p class="font-body text-xs text-kaleo-earth/50 mt-3 text-center">NSP renewable energy installations — solar and biogas hybrid systems</p>
+        <p class="font-body text-xs text-kaleo-earth/50 mt-3 text-center">NSP rooftop solar with hydroponic garden integration</p>
       </div>
     </div>
   </section>

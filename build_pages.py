@@ -60,7 +60,8 @@ def nav(active):
       <a href="index.html" class="flex items-center gap-3">
         <img src="profile/nsp-mark.png" alt="NSP logo" class="h-11 w-auto" />
         <span class="leading-tight hidden sm:block">
-          <span class="font-body text-sm md:text-base tracking-[0.18em] uppercase text-kaleo-earth/55 block">Nobo Shakti Prokushal</span>
+          <span class="font-display text-xl md:text-2xl tracking-wide text-kaleo-earth block">Nobo Shakti Prokushal <span class="text-kaleo-terracotta" style="font-family:'Hind Siliguri','Noto Sans Bengali',Vrinda,'Shonar Bangla',sans-serif">নবশক্তি প্রকৌশল</span></span>
+          <span class="font-body text-[10px] uppercase tracking-[0.22em] text-kaleo-earth/50 block mt-0.5">Dhaka, Bangladesh</span>
         </span>
       </a>
       <nav class="hidden lg:flex items-center gap-6 font-body text-xs uppercase tracking-[0.15em] text-kaleo-earth/70">

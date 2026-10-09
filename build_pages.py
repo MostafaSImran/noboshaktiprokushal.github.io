@@ -209,7 +209,7 @@ index_body = """
       <p class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-terracotta">Leadership</p>
       <h2 class="font-display text-3xl md:text-4xl text-kaleo-earth mt-4">Founded &amp; Led by Engr. Mostafa Shawkat Imran</h2>
       <p class="font-body text-sm md:text-base text-kaleo-earth/70 leading-relaxed mt-5 max-w-2xl mx-auto">
-        Mechanical Engineer (RUET), MBA (AUST), Fellow of IEB — with two decades of engineering practice across Bangladesh and Indonesia. NSP executes; the principal leads design review and code compliance on every engagement.
+        Mechanical Engineer (RUET), MBA (AUST), Fellow of IEB (F-11718) — with two decades of engineering practice across Bangladesh and Indonesia. NSP executes; the principal leads design review and code compliance on every engagement.
       </p>
       <a href="https://www.mostafasimran.com" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 mt-7 font-body text-sm uppercase tracking-[0.12em] text-kaleo-terracotta border border-kaleo-terracotta/40 rounded-full px-8 py-3.5 hover:bg-kaleo-terracotta hover:text-kaleo-cream transition-all">
         Executive Profile ↗ mostafasimran.com
@@ -603,7 +603,7 @@ why_body = page_header(
         <div class="reveal bg-kaleo-cream border border-kaleo-earth/10 rounded-3xl p-8">
           <h3 class="font-display text-xl text-kaleo-earth">Leadership</h3>
           <ul class="mt-4 space-y-2.5 font-body text-sm text-kaleo-earth/70">
-            <li><strong class="text-kaleo-earth">Engr. Mostafa Shawkat Imran</strong> — Proprietor &amp; CEO, B.Sc. ME (RUET), MBA</li>
+            <li><strong class="text-kaleo-earth">Engr. Mostafa Shawkat Imran</strong> — Proprietor &amp; CEO, B.Sc. ME (RUET), MBA, Fellow IEB (F-11718)</li>
             <li><strong class="text-kaleo-earth">Engr. Md. Shofiqul Hoque</strong> — Head of Operation, MBA; ex-Plant Engineer, Akij Food</li>
             <li><strong class="text-kaleo-earth">Tajkia Jahan Rumana</strong> — Manager, Finance, Accounts &amp; Admin</li>
             <li><strong class="text-kaleo-earth">Shahriar Afsar Khan</strong> — Head of Marketing, MBA</li>
@@ -612,7 +612,8 @@ why_body = page_header(
         <div class="reveal bg-kaleo-cream border border-kaleo-earth/10 rounded-3xl p-8">
           <h3 class="font-display text-xl text-kaleo-earth">Engineering</h3>
           <ul class="mt-4 space-y-2.5 font-body text-sm text-kaleo-earth/70">
-            <li><strong class="text-kaleo-earth">Md. Ariful Islam</strong> — Architect (15 yrs)</li>
+            <li><strong class="text-kaleo-earth">Dilruba Hossain</strong> — Architect, MIAB (H-189)</li>
+            <li><strong class="text-kaleo-earth">A.S.M. Hadiul Islam</strong> — Architect, MIAB (I-149)</li>
             <li><strong class="text-kaleo-earth">Md. Neyamotullah</strong> — Junior Architect (10 yrs)</li>
             <li><strong class="text-kaleo-earth">Md. Saidur Rahman</strong> — B.Sc. EEE (17 yrs, 3 yrs abroad)</li>
             <li><strong class="text-kaleo-earth">Md. Robiul Alam</strong> — B.Sc. CE (15 yrs)</li>

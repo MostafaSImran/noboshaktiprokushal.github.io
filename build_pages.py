@@ -137,7 +137,7 @@ index_body = """
   <section class="relative bg-kaleo-cream">
     <div class="max-w-7xl mx-auto px-6 md:px-8 py-24 md:py-36 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
       <div class="reveal">
-        <span class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-terracotta">Engineering Contractor · Est. 2007 · Dhaka, Bangladesh</span>
+        <span class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-terracotta">Dhaka, Bangladesh</span>
         <h1 class="font-display text-5xl md:text-7xl leading-[1.02] mt-5 text-kaleo-earth">
           We Build the Systems Hospitals Rely On.
         </h1>

@@ -56,7 +56,7 @@ def nav(active):
         for href, label in NAV_ITEMS
     )
     return f"""  <header class="sticky top-0 z-50 bg-kaleo-sand/90 backdrop-blur-md border-b border-kaleo-earth/10">
-    <div class="max-w-7xl mx-auto px-6 md:px-8 pt-4 md:pt-5 flex items-center gap-4">
+    <div class="max-w-7xl mx-auto px-6 md:px-8 pt-4 md:pt-5 flex items-center justify-between gap-4">
       <a href="index.html" class="flex items-center gap-4 md:gap-5">
         <img src="profile/nsp-mark.png" alt="NSP logo" class="h-16 md:h-20 w-auto" />
         <span class="leading-snug hidden sm:block">
@@ -65,14 +65,20 @@ def nav(active):
           <span class="font-body text-[10px] md:text-[11px] uppercase tracking-[0.4em] text-kaleo-earth/50 block mt-1.5">Dhaka, Bangladesh</span>
         </span>
       </a>
-    </div>
-    <nav class="relative mt-3 md:mt-4 border-t border-kaleo-earth/10">
-      <div class="max-w-7xl mx-auto px-6 md:px-8 hidden lg:flex items-center justify-center gap-8 font-body text-xs uppercase tracking-[0.18em] text-kaleo-earth/70 py-3.5">
-        {links}
-      </div>
-      <a href="contact.html" class="absolute right-4 md:right-8 top-1/2 -translate-y-1/2 font-body text-xs uppercase tracking-[0.12em] bg-kaleo-earth text-kaleo-cream rounded-full px-6 py-3 hover:bg-kaleo-terracotta transition-colors">
+      <a href="contact.html" class="lg:hidden font-body text-xs uppercase tracking-[0.12em] bg-kaleo-earth text-kaleo-cream rounded-full px-5 py-2.5 hover:bg-kaleo-terracotta transition-colors whitespace-nowrap">
         Get a Quote
       </a>
+    </div>
+    <nav class="hidden lg:block mt-3 md:mt-4 border-t border-kaleo-earth/10">
+      <div class="max-w-7xl mx-auto px-6 md:px-8 flex items-center justify-between gap-4 py-3.5 font-body text-xs uppercase tracking-[0.18em] text-kaleo-earth/70">
+        <span class="w-28" aria-hidden="true"></span>
+        <div class="flex items-center gap-6 xl:gap-9">
+          {links}
+        </div>
+        <a href="contact.html" class="font-body text-xs uppercase tracking-[0.12em] bg-kaleo-earth text-kaleo-cream rounded-full px-5 py-2.5 hover:bg-kaleo-terracotta transition-colors whitespace-nowrap">
+          Get a Quote
+        </a>
+      </div>
     </nav>
   </header>
 """

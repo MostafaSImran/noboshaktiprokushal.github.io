@@ -196,9 +196,9 @@ index_body = """
         </div>
         <div class="reveal grid grid-cols-2 gap-6">
           <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 aspect-[4/3]"><img src="profile/oxygen-manifold.webp" alt="Oxygen manifold room with cylinder banks" class="w-full h-full object-cover" loading="lazy" /></div>
-          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 aspect-[4/3] mt-6"><img src="profile/chillers.webp" alt="Air-cooled chillers installed on rooftop" class="w-full h-full object-cover" loading="lazy" /></div>
+          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 aspect-[4/3] mt-6"><img src="profile/rms-tormene.webp" alt="Gas regulator metering station installed for SGCL at Bhola" class="w-full h-full object-cover" loading="lazy" /></div>
           <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 aspect-[4/3]"><img src="profile/scrub-station.webp" alt="Stainless steel OT scrub station fabricated by NSP" class="w-full h-full object-cover" loading="lazy" /></div>
-          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 aspect-[4/3] mt-6"><img src="profile/workshop.webp" alt="NSP workshop fabrication in progress" class="w-full h-full object-cover" loading="lazy" /></div>
+          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 aspect-[4/3] mt-6"><img src="capsule-build.webp" alt="Steel-frame structure fabrication in the NSP workshop" class="w-full h-full object-cover" loading="lazy" /></div>
         </div>
       </div>
     </div>
@@ -816,7 +816,7 @@ projects_body = page_header(
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
         <div class="reveal order-2 lg:order-1 space-y-4">
           <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 shadow-xl"><img src="profile/blower-silencers.webp" alt="Blowers with acoustic silencers installed by NSP" class="w-full object-cover" loading="lazy" /></div>
-          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 shadow-xl"><img src="profile/chiller-plant.webp" alt="Chiller plant machine installation" class="w-full object-cover" loading="lazy" /></div>
+          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 shadow-xl"><img src="profile/chillers.webp" alt="Air-cooled chillers installed and commissioned by NSP" class="w-full object-cover" loading="lazy" /></div>
         </div>
         <div class="reveal order-1 lg:order-2">
           <span class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-terracotta">Discipline 02</span>

@@ -61,7 +61,6 @@ def nav(active):
         <img src="profile/nsp-mark.png" alt="NSP logo" class="h-11 w-auto" />
         <span class="leading-tight hidden sm:block">
           <span class="font-body text-sm md:text-base tracking-[0.18em] uppercase text-kaleo-earth/55 block">Nobo Shakti Prokushal</span>
-          <span class="font-body text-[10px] uppercase tracking-[0.22em] text-kaleo-earth/50 block mt-0.5">Engineering Contractor · Est. 2007</span>
         </span>
       </a>
       <nav class="hidden lg:flex items-center gap-6 font-body text-xs uppercase tracking-[0.15em] text-kaleo-earth/70">
@@ -82,7 +81,6 @@ FOOTER = """
           <img src="profile/nsp-mark.png" alt="NSP logo" class="h-12 w-auto" />
           <div class="leading-tight">
             <p class="font-body text-base tracking-[0.15em] uppercase text-kaleo-cream/60">Nobo Shakti Prokushal</p>
-            <p class="font-body text-[10px] uppercase tracking-[0.22em] text-kaleo-cream/50 mt-1">Engineering Contractor · Est. 2007</p>
           </div>
         </div>
         <p class="font-body text-sm text-kaleo-cream/60 leading-relaxed mt-4">Engineering contractor — healthcare MEP, medical gas, fire protection, acoustics, fabrication and renewable energy. Dhaka, Bangladesh.</p>

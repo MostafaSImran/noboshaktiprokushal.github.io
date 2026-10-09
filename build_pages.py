@@ -1037,6 +1037,7 @@ collab_cards = [
         "Cooltech Corporation",
         "Ferrotech Bangladesh",
         "Allex Design and Interior",
+        "Arrisbd Associates Ltd.",
     ]),
 ]
 

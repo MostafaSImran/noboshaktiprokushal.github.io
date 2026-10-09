@@ -40,7 +40,7 @@ HEAD = """<!doctype html>
 """
 
 NAV_ITEMS = [
-    ("index.html", "Home / About"),
+    ("index.html", "Home"),
     ("products.html", "Products"),
     ("services.html", "Services"),
     ("projects.html", "Projects"),

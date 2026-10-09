@@ -601,8 +601,8 @@ products_body = page_header(
         data._subject = 'NSP Product Inquiry — ' + data.product;
         data._template = 'table';
         data._captcha = 'false';
-        data._autoresponse = 'Dear ' + data.name + ',\n\nThank you for contacting Nobo Shakti Prokushal (NSP). Your inquiry about "' + data.product + '" has been received. Our engineering team will respond within one business day.\n\n— Nobo Shakti Prokushal (NSP), Dhaka\nPhone / WhatsApp: +880 1714 073604\nwww.noboshaktiprokushal.com';
-        fetch('https://formsubmit.co/ajax/info@mostafasimran.com', {
+        data._autoresponse = 'Dear ' + data.name + ',\\n\\nThank you for contacting Nobo Shakti Prokushal (NSP). Your inquiry about "' + data.product + '" has been received. Our engineering team will respond within one business day.\\n\\n— Nobo Shakti Prokushal (NSP), Dhaka\\nPhone / WhatsApp: +880 1714 073604\\nwww.noboshaktiprokushal.com';
+        fetch('https://formsubmit.co/ajax/info@noboshaktiprokushal.com', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
           body: JSON.stringify(data)
@@ -613,7 +613,7 @@ products_body = page_header(
           form.reset();
           renderExtraFields(productInput.value);
         }).catch(function () {
-          status.innerHTML = 'Something went wrong. Please email <a class="text-kaleo-terracotta underline" href="mailto:info@mostafasimran.com">info@mostafasimran.com</a> or WhatsApp +880 1714 073604.';
+          status.innerHTML = 'Something went wrong. Please email <a class="text-kaleo-terracotta underline" href="mailto:info@noboshaktiprokushal.com">info@noboshaktiprokushal.com</a> or WhatsApp +880 1714 073604.';
           status.className = 'font-body text-sm text-center min-h-[1.25rem] text-red-700';
         }).finally(function () {
           submitBtn.disabled = false;
@@ -1148,7 +1148,7 @@ contact_body = page_header(
         </div>
       </div>
 
-      <form action="https://formsubmit.co/info@mostafasimran.com" method="POST" class="reveal bg-kaleo-cream border border-kaleo-earth/10 rounded-3xl p-8 md:p-10 space-y-5">
+      <form action="https://formsubmit.co/info@noboshaktiprokushal.com" method="POST" class="reveal bg-kaleo-cream border border-kaleo-earth/10 rounded-3xl p-8 md:p-10 space-y-5">
         <input type="hidden" name="_subject" value="NSP Website Inquiry" />
         <input type="hidden" name="_captcha" value="false" />
         <input type="hidden" name="_template" value="table" />

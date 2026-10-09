@@ -803,7 +803,7 @@ CLIENTS = [
         ("Ayesha Memorial Hospital", "OT scrub station supply"),
     ]),
     ("Industrial", [
-        ("TM Textile Ltd, Gazipur", "Acoustic room design for 2 MW power plant; 4 nos. 10'×10' acoustic sliding doors; 4 sound traps"),
+        ("TEAM Textile Ltd, Gazipur", "Acoustic room design for 2 MW power plant; 4 nos. 10'×10' acoustic sliding doors; 4 sound traps"),
         ("MASCO Exports Ltd, Narsingdi", "Sound attenuation system design and installation"),
         ("Abir Poultry &amp; Hatchery, Trishal", "Hot and chilled water system design for hatchery incubators; chiller, boiler and pump installation"),
         ("RAKS Fashion Ltd, Narayanganj", "Existing electrical system assessment and redesign; correction supervision"),
@@ -824,7 +824,7 @@ CLIENTS = [
         ("Sonar Bangla, Kurigram", "200 sets of 25–40 W solar DC home systems"),
     ]),
     ("Transport", [
-        ("Shohagh Motors Ltd", "Luxury Scania bus body structure design and supervision of 4 buses"),
+        ("Shohagh Paribahan Ltd", "Luxury Scania bus body structure design and supervision of 4 buses"),
     ]),
 ]
 
@@ -851,11 +851,14 @@ signature_body = page_header(
 ) + f"""
   <section class="bg-kaleo-sand py-16 md:py-20">
     <div class="max-w-7xl mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-3 gap-6">
-{sig_card("/scania-bus.webp", "Bangladesh first luxury bus body built for Scania", "2010–2011", "Scania Bus Body Development", "Design and implementation lead — Bangladesh's first luxury bus body, engineered and built by NSP.")}
-{sig_card("/profile/icu-ward.webp", "Hospital ICU ward interior completed by NSP", "Multi-year", "Hospital MGPS & ICU Fit-Out", "Medical gas pipeline, fire protection and ICU interior works for hospitals nationwide.")}
-{sig_card("/project-manifold.webp", "Oxygen manifold room at upazila health complex", "2022–2023", "Oxygen Manifold Systems — Save the Children", "Led personally by NSP's founder as individual consultant to Save the Children: central medical gas pipeline establishment at 20 Upazila Health Complexes, with QA plans and staff training.")}
+{sig_card("/scania-bus.webp", "Luxury Scania bus body built for Shohagh Paribahan", "2010–2011", "Scania Bus Body — Shohagh Paribahan", "Design and implementation lead — Bangladesh's first luxury bus body for Shohagh Paribahan Ltd, engineered and built by NSP.")}
+{sig_card("/project-btcl-noc.webp", "Network operations center with video wall and operator team", "2020", "Network Operations Center — BTCL", "NOC fit-out with video wall, operator consoles and team training for the national telecom operator.")}
 {sig_card("/project-masco.webp", "MASCO blower room sound attenuation", "2016", "Industrial Sound Attenuation — MASCO", "Blower-room silencers, acoustic louvers and duct attenuation — approximately 22 dB(A) noise reduction.")}
+{sig_card("/profile/acoustic-wall.webp", "Acoustic wall panels inside a 2 MW generator room", "Industrial", "DG Room Sound Attenuation — TEAM Textile", "Acoustic room design for TEAM Textile Ltd's 2 MW power plant, Gazipur — 4 nos. 10'×10' acoustic sliding doors and 4 sound traps.")}
+{sig_card("/card-energy.webp", "Single-dome industrial biogas plant for a poultry farm", "Renewable", "Biogas Hybrid System", "Industrial single-dome biogas plant with biogas–diesel hybrid generation for a poultry farm.")}
 {sig_card("/project-sgcl-rms.webp", "Gas regulator metering station for SGCL at Bhola", "2026", "Regulator Metering Station — SGCL", "Pressure regulation, slam-shut safety and metering train at Notun Bangla Power Plant, Bhola — with O&amp;M training.")}
+{sig_card("/project-manifold.webp", "Oxygen manifold room at upazila health complex", "2022–2023", "Hospital Medical Gas Audit — Save the Children", "Oxygen manifold and medical gas connectivity across 20+ health facilities — HTM-2022 / NFPA-99 aligned QA and safety compliance plans, with hospital staff training.")}
+{sig_card("/profile/icu-ward.webp", "Hospital ICU ward interior completed by NSP", "Multi-year", "Hospital MGPS & ICU Fit-Out", "Medical gas pipeline, fire protection and ICU interior works for hospitals nationwide.")}
 {sig_card("/profile/raised-floor.webp", "Raised floor structure installation", "Various", "Raised Floors &amp; Acoustic Fit-Outs", "Showroom and control-room raised floors, acoustic doors, sound traps and wall treatments.")}
     </div>
   </section>
@@ -874,7 +877,7 @@ signature_body = page_header(
   </section>
 """
 write_page("signature.html", "Signature Projects & Client List — NSP",
-           "NSP signature projects and complete client list: Scania bus body, hospital medical gas systems, founder's Save the Children oxygen program consultancy, MASCO acoustics, SGCL RMS and more.",
+           "NSP signature projects and complete client list: Scania bus body for Shohagh Paribahan, BTCL network operations center, MASCO and TEAM Textile sound attenuation, biogas hybrid system, SGCL regulator metering station, Save the Children hospital medical gas audit and more.",
            "signature.html", signature_body)
 
 # ============================================================ WHY NSP

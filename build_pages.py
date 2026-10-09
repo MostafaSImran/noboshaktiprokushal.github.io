@@ -1217,7 +1217,8 @@ contact_body = page_header(
         </a>
         <a href="https://wa.me/8801714073604" class="reveal block bg-kaleo-cream border border-kaleo-earth/10 rounded-3xl p-8 hover:border-kaleo-terracotta/50 transition-colors">
           <p class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-terracotta">WhatsApp</p>
-          <p class="font-display text-2xl md:text-3xl text-kaleo-earth mt-2">Chat with NSP</p>
+          <p class="font-display text-2xl md:text-3xl text-kaleo-earth mt-2">+880 1714 073604</p>
+          <p class="font-body text-sm text-kaleo-earth/60 mt-1">Chat with NSP — replies within one business day</p>
         </a>
         <a href="mailto:info@noboshaktiprokushal.com" class="reveal block bg-kaleo-cream border border-kaleo-earth/10 rounded-3xl p-8 hover:border-kaleo-terracotta/50 transition-colors">
           <p class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-terracotta">Email</p>

@@ -58,8 +58,11 @@ def nav(active):
     return f"""  <header class="sticky top-0 z-50 bg-kaleo-sand/90 backdrop-blur-md border-b border-kaleo-earth/10">
     <div class="max-w-7xl mx-auto px-6 md:px-8 h-16 flex items-center justify-between">
       <a href="index.html" class="flex items-center gap-3">
-        <img src="/profile/nsp-logo.png" alt="NSP logo" class="h-9 w-auto" />
-        <span class="font-display text-xl md:text-2xl tracking-wide text-kaleo-earth hidden sm:inline">Nobo Shakti <span class="text-kaleo-terracotta">Prokushal</span></span>
+        <img src="/profile/nsp-mark.png" alt="NSP logo" class="h-11 w-auto" />
+        <span class="leading-tight hidden sm:block">
+          <span class="font-display text-lg md:text-xl tracking-wide text-kaleo-earth block">Nobo Shakti <span class="text-kaleo-terracotta">Prokushal</span></span>
+          <span class="font-body text-[10px] uppercase tracking-[0.22em] text-kaleo-earth/50 block mt-0.5">Engineering Contractor · Est. 2007</span>
+        </span>
       </a>
       <nav class="hidden lg:flex items-center gap-6 font-body text-xs uppercase tracking-[0.15em] text-kaleo-earth/70">
         {links}
@@ -76,8 +79,11 @@ FOOTER = """
     <div class="max-w-7xl mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-3 gap-12">
       <div>
         <div class="flex items-center gap-3">
-          <img src="/profile/nsp-logo.png" alt="NSP logo" class="h-10 w-auto" />
-          <p class="font-display text-2xl">Nobo Shakti Prokushal</p>
+          <img src="/profile/nsp-mark.png" alt="NSP logo" class="h-12 w-auto" />
+          <div class="leading-tight">
+            <p class="font-display text-2xl">Nobo Shakti Prokushal</p>
+            <p class="font-body text-[10px] uppercase tracking-[0.22em] text-kaleo-cream/50 mt-1">Engineering Contractor · Est. 2007</p>
+          </div>
         </div>
         <p class="font-body text-sm text-kaleo-cream/60 leading-relaxed mt-4">Engineering contractor — healthcare MEP, medical gas, fire protection, acoustics, fabrication and renewable energy. Dhaka, Bangladesh.</p>
       </div>
@@ -146,10 +152,20 @@ index_body = """
         </div>
       </div>
       <div class="reveal">
-        <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 shadow-xl">
-          <img src="/profile/gas-pendants.webp" alt="Medical gas ceiling pendants and outlets installed by NSP at a hospital ICU" class="w-full h-full object-cover" />
+        <div class="rounded-3xl bg-kaleo-earth text-kaleo-cream p-8 md:p-10 shadow-xl relative overflow-hidden">
+          <img src="/profile/nsp-mark.png" alt="" aria-hidden="true" class="absolute -right-8 -bottom-10 w-44 opacity-10 pointer-events-none" />
+          <span class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-terracotta">Our Vision</span>
+          <p class="font-display text-2xl md:text-[1.75rem] leading-snug mt-4">
+            To establish an institute for research and development in the engineering field of Bangladesh — for sustainable development.
+          </p>
         </div>
-        <p class="font-body text-xs text-kaleo-earth/50 mt-3 text-center">Medical gas pendants and outlets — NSP hospital installation</p>
+        <div class="rounded-3xl bg-white/70 border border-kaleo-earth/10 p-8 md:p-10 mt-6 shadow-lg relative overflow-hidden">
+          <span class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-terracotta">Our Mission</span>
+          <p class="font-body text-base md:text-lg text-kaleo-earth/80 leading-relaxed mt-4">
+            To provide quality engineering services for industrial and medical structures across Bangladesh — through Nobo Shakti Prokushal and sister concern NeoMed Healthcare Services.
+          </p>
+        </div>
+        <p class="font-body text-xs text-kaleo-earth/40 mt-4 text-center">Vision &amp; Mission — as stated in the NSP corporate profile</p>
       </div>
     </div>
   </section>

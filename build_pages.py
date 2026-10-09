@@ -92,7 +92,7 @@ FOOTER = """
         <ul class="mt-4 space-y-2 font-body text-sm text-kaleo-cream/75">
           <li><a href="tel:+8801714073604" class="hover:text-kaleo-cream transition-colors">+880 1714 073604</a></li>
           <li><a href="tel:+8801711055476" class="hover:text-kaleo-cream transition-colors">+880 1711 055476</a></li>
-          <li><a href="mailto:info@mostafasimran.com" class="hover:text-kaleo-cream transition-colors">info@mostafasimran.com</a></li>
+          <li><a href="mailto:info@noboshaktiprokushal.com" class="hover:text-kaleo-cream transition-colors">info@noboshaktiprokushal.com</a></li>
           <li><a href="https://wa.me/8801714073604" class="hover:text-kaleo-cream transition-colors">WhatsApp</a></li>
         </ul>
       </div>
@@ -1219,9 +1219,9 @@ contact_body = page_header(
           <p class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-terracotta">WhatsApp</p>
           <p class="font-display text-2xl md:text-3xl text-kaleo-earth mt-2">Chat with NSP</p>
         </a>
-        <a href="mailto:info@mostafasimran.com" class="reveal block bg-kaleo-cream border border-kaleo-earth/10 rounded-3xl p-8 hover:border-kaleo-terracotta/50 transition-colors">
+        <a href="mailto:info@noboshaktiprokushal.com" class="reveal block bg-kaleo-cream border border-kaleo-earth/10 rounded-3xl p-8 hover:border-kaleo-terracotta/50 transition-colors">
           <p class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-terracotta">Email</p>
-          <p class="font-display text-2xl md:text-3xl text-kaleo-earth mt-2">info@mostafasimran.com</p>
+          <p class="font-display text-2xl md:text-3xl text-kaleo-earth mt-2">info@noboshaktiprokushal.com</p>
         </a>
         <div class="reveal bg-kaleo-cream border border-kaleo-earth/10 rounded-3xl p-8">
           <p class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-terracotta">Offices</p>

@@ -56,12 +56,13 @@ def nav(active):
         for href, label in NAV_ITEMS
     )
     return f"""  <header class="sticky top-0 z-50 bg-kaleo-sand/90 backdrop-blur-md border-b border-kaleo-earth/10">
-    <div class="max-w-7xl mx-auto px-6 md:px-8 h-16 flex items-center justify-between">
+    <div class="max-w-7xl mx-auto px-6 md:px-8 h-20 md:h-24 flex items-center justify-between">
       <a href="index.html" class="flex items-center gap-3">
-        <img src="profile/nsp-mark.png" alt="NSP logo" class="h-11 w-auto" />
+        <img src="profile/nsp-mark.png" alt="NSP logo" class="h-12 md:h-14 w-auto" />
         <span class="leading-tight hidden sm:block">
-          <span class="font-display text-xl md:text-2xl tracking-wide text-kaleo-earth block">Nobo Shakti Prokushal <span class="text-kaleo-terracotta" style="font-family:'Hind Siliguri','Noto Sans Bengali',Vrinda,'Shonar Bangla',sans-serif">নবশক্তি প্রকৌশল</span></span>
-          <span class="font-body text-[10px] uppercase tracking-[0.22em] text-kaleo-earth/50 block mt-0.5">Dhaka, Bangladesh</span>
+          <span class="font-display text-xl md:text-3xl tracking-wide text-kaleo-earth block">Nobo Shakti Prokushal</span>
+          <span class="block text-base md:text-xl text-kaleo-earth mt-0.5" style="font-family:'Hind Siliguri','Noto Sans Bengali',Vrinda,'Shonar Bangla',sans-serif">নবশক্তি প্রকৌশল</span>
+          <span class="font-body text-[10px] uppercase tracking-[0.28em] text-kaleo-earth/50 block mt-1">Dhaka, Bangladesh</span>
         </span>
       </a>
       <nav class="hidden lg:flex items-center gap-6 font-body text-xs uppercase tracking-[0.15em] text-kaleo-earth/70">

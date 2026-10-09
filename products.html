@@ -203,7 +203,7 @@
           <ul class="space-y-7">
             <li class="border-t-2 border-kaleo-terracotta/30 pt-5">
               <h4 class="font-display text-xl text-kaleo-earth">Engineered Shell</h4>
-              <p class="font-body text-sm text-kaleo-earth/60 leading-relaxed mt-2">Hot-dip galvanized steel frame (3–4 mm) with 2 mm fluorocarbon-coated aviation aluminum panels and 100 mm+ cyclopentane insulation.</p>
+              <p class="font-body text-sm text-kaleo-earth/60 leading-relaxed mt-2">Hot-dip galvanized steel frame (3–4 mm) with 2 mm fluorocarbon-coated aviation aluminum panels and 100 mm+ cyclopentane insulation — also available with matte composite or wood-look exterior finishes instead of bare metal.</p>
             </li>
             <li class="border-t-2 border-kaleo-terracotta/30 pt-5">
               <h4 class="font-display text-xl text-kaleo-earth">Panoramic Comfort</h4>
@@ -224,6 +224,38 @@
           Photo: actual steel-frame fabrication of the EcoNest capsule home — hand-built structure in the NSP workshop.
         </figcaption>
       </figure>
+
+      <div class="mt-16 border-t-2 border-kaleo-terracotta/20 pt-12 reveal">
+        <div class="text-center max-w-2xl mx-auto">
+          <span class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-terracotta">New Model</span>
+          <h3 class="font-display text-3xl md:text-4xl text-kaleo-earth mt-3">EcoNest 3020 — Matte &amp; Wood Capsule</h3>
+          <p class="font-body text-base text-kaleo-earth/70 leading-relaxed mt-4">
+            The same capsule-home engineering in a warmer, non-metallic character — for resorts and residences that want a natural look.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-10 items-center">
+          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 shadow-xl">
+            <img src="econest-3020.webp" alt="EcoNest 3020 capsule home with matte white shell, wood entrance and panoramic sliding glass" class="w-full object-cover" loading="lazy" />
+          </div>
+          <div>
+            <ul class="space-y-7">
+              <li class="border-t-2 border-kaleo-terracotta/30 pt-5">
+                <h4 class="font-display text-xl text-kaleo-earth">Matte Composite Shell</h4>
+                <p class="font-body text-sm text-kaleo-earth/60 leading-relaxed mt-2">Non-metallic matte-white exterior panels over the same insulated steel structure — no bare metal sheeting.</p>
+              </li>
+              <li class="border-t-2 border-kaleo-terracotta/30 pt-5">
+                <h4 class="font-display text-xl text-kaleo-earth">Natural Wood Entrance</h4>
+                <p class="font-body text-sm text-kaleo-earth/60 leading-relaxed mt-2">Timber-look cladding around the entrance with a hardwood deck for a warm, natural arrival.</p>
+              </li>
+              <li class="border-t-2 border-kaleo-terracotta/30 pt-5">
+                <h4 class="font-display text-xl text-kaleo-earth">Panoramic Sliding Glass</h4>
+                <p class="font-body text-sm text-kaleo-earth/60 leading-relaxed mt-2">Full-width sliding glass opening the living space to the deck, garden and evening light.</p>
+              </li>
+            </ul>
+            <button type="button" data-inquiry="Capsule Homes (EcoNest 3020)" class="inline-block mt-8 font-body text-sm uppercase tracking-[0.12em] bg-kaleo-earth text-kaleo-cream rounded-full px-7 py-3.5 hover:bg-kaleo-terracotta transition-colors">Send Inquiry</button>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="bg-gradient-to-b from-[#f9f9f9] to-[#eaf7ea] rounded-2xl py-12 md:py-16 px-5 md:px-10">
@@ -399,6 +431,12 @@
           { key: 'home_type', label: 'Type of home required', type: 'select', options: ['Single-family', 'Duplex', 'Resort unit(s)'] },
           { key: 'floor_area', label: 'Expected floor area (sq ft)', type: 'number' },
           { key: 'certifications', label: 'Green certifications desired (e.g. LEED)' }
+        ],
+        'Capsule Homes (EcoNest 3020)': [
+          { key: 'site_location', label: 'Site address / location', required: true },
+          { key: 'home_type', label: 'Type of home required', type: 'select', options: ['Single-family', 'Duplex', 'Resort unit(s)'] },
+          { key: 'floor_area', label: 'Expected floor area (sq ft)', type: 'number' },
+          { key: 'finish', label: 'Exterior finish preference', type: 'select', options: ['Matte white composite', 'Wood-look cladding', 'Combination', 'To be advised'] }
         ],
         'Solar Home System': [
           { key: 'site_location', label: 'Installation address / location', required: true },

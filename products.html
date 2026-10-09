@@ -78,7 +78,7 @@
           <li class="flex items-start gap-3"><span class="text-kaleo-terracotta mt-1">—</span><span class="font-body text-sm text-kaleo-earth/75">Caravan — customized travel and mobile living units</span></li>
           <li class="flex items-start gap-3"><span class="text-kaleo-terracotta mt-1">—</span><span class="font-body text-sm text-kaleo-earth/75">Golf Cart — purpose-built utility and resort vehicles</span></li>
         </ul>
-        <a href="contact.html" class="inline-block mt-7 font-body text-sm uppercase tracking-[0.12em] bg-kaleo-earth text-kaleo-cream rounded-full px-7 py-3.5 hover:bg-kaleo-terracotta transition-colors">Request a Build</a>
+        <button type="button" data-inquiry="Customized Vehicle Body Structure (Bus Body / Caravan / Golf Cart)" class="inline-block mt-7 font-body text-sm uppercase tracking-[0.12em] bg-kaleo-earth text-kaleo-cream rounded-full px-7 py-3.5 hover:bg-kaleo-terracotta transition-colors">Send Inquiry</button>
       </div>
       <div class="reveal">
         <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 shadow-xl">
@@ -116,6 +116,9 @@
         <div class="reveal rounded-2xl overflow-hidden border border-kaleo-earth/10 aspect-square"><img src="soundpod/double-4.webp" alt="Sound pod at exhibition" class="w-full h-full object-cover" loading="lazy" /></div>
         <div class="reveal rounded-2xl overflow-hidden border border-kaleo-earth/10 aspect-square"><img src="expo-malaysia.webp" alt="NSP sound pod showcased at international exhibition in Malaysia" class="w-full h-full object-cover" loading="lazy" /></div>
       </div>
+      <div class="text-center mt-10 reveal">
+        <button type="button" data-inquiry="Sound Pod (Single / Double / Customized)" class="inline-block font-body text-sm uppercase tracking-[0.12em] bg-kaleo-earth text-kaleo-cream rounded-full px-7 py-3.5 hover:bg-kaleo-terracotta transition-colors">Send Inquiry</button>
+      </div>
     </div>
 
     <div class="max-w-7xl mx-auto px-6 md:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -136,7 +139,7 @@
           <li class="flex items-start gap-3"><span class="text-kaleo-terracotta mt-1">—</span><span class="font-body text-sm text-kaleo-earth/75">Integrated HVAC, electrical and plumbing modules</span></li>
           <li class="flex items-start gap-3"><span class="text-kaleo-terracotta mt-1">—</span><span class="font-body text-sm text-kaleo-earth/75">Customizable layouts for resorts, staff housing and clinics</span></li>
         </ul>
-        <a href="contact.html" class="inline-block mt-7 font-body text-sm uppercase tracking-[0.12em] bg-kaleo-earth text-kaleo-cream rounded-full px-7 py-3.5 hover:bg-kaleo-terracotta transition-colors">Discuss Your Unit</a>
+        <button type="button" data-inquiry="Capsule Homes" class="inline-block mt-7 font-body text-sm uppercase tracking-[0.12em] bg-kaleo-earth text-kaleo-cream rounded-full px-7 py-3.5 hover:bg-kaleo-terracotta transition-colors">Send Inquiry</button>
       </div>
     </div>
 
@@ -152,7 +155,7 @@
           <li class="flex items-start gap-3"><span class="text-kaleo-terracotta mt-1">—</span><span class="font-body text-sm text-kaleo-earth/75">Solar, hydroponic and organic fertilizer integration for rooftop gardening</span></li>
           <li class="flex items-start gap-3"><span class="text-kaleo-terracotta mt-1">—</span><span class="font-body text-sm text-kaleo-earth/75">Hybrid configurations with battery backup and generator interlock</span></li>
         </ul>
-        <a href="contact.html" class="inline-block mt-7 font-body text-sm uppercase tracking-[0.12em] bg-kaleo-earth text-kaleo-cream rounded-full px-7 py-3.5 hover:bg-kaleo-terracotta transition-colors">Get Solar</a>
+        <button type="button" data-inquiry="Solar Home System" class="inline-block mt-7 font-body text-sm uppercase tracking-[0.12em] bg-kaleo-earth text-kaleo-cream rounded-full px-7 py-3.5 hover:bg-kaleo-terracotta transition-colors">Send Inquiry</button>
       </div>
       <div class="reveal">
         <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 shadow-xl">
@@ -162,6 +165,113 @@
       </div>
     </div>
   </section>
+
+  <!-- Send Inquiry modal -->
+  <div id="inquiry-modal" class="fixed inset-0 z-[100] hidden items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="inquiry-title">
+    <div class="absolute inset-0 bg-kaleo-charcoal/60 backdrop-blur-sm" data-close></div>
+    <div class="relative bg-kaleo-cream rounded-3xl max-w-lg w-full p-7 md:p-9 shadow-2xl border border-kaleo-earth/10 max-h-[90vh] overflow-y-auto">
+      <button type="button" data-close aria-label="Close" class="absolute top-4 right-4 w-9 h-9 rounded-full border border-kaleo-earth/20 text-kaleo-earth/60 hover:text-kaleo-earth hover:border-kaleo-terracotta transition-colors font-body text-lg leading-none">&times;</button>
+      <span class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-terracotta">Product Inquiry</span>
+      <h3 id="inquiry-title" class="font-display text-2xl md:text-3xl text-kaleo-earth mt-2">Send an Inquiry</h3>
+      <p class="font-body text-sm text-kaleo-earth/60 mt-2">Product: <strong id="inq-product-label" class="text-kaleo-earth"></strong></p>
+      <form id="inquiry-form" class="mt-6 space-y-4">
+        <input type="hidden" name="product" id="inq-product" />
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <label class="block">
+            <span class="font-body text-xs uppercase tracking-[0.15em] text-kaleo-earth/60">Your Name *</span>
+            <input type="text" name="name" required class="mt-1.5 w-full font-body text-sm text-kaleo-earth bg-kaleo-sand/60 border border-kaleo-earth/20 rounded-xl px-4 py-3 outline-none focus:border-kaleo-terracotta transition-colors" />
+          </label>
+          <label class="block">
+            <span class="font-body text-xs uppercase tracking-[0.15em] text-kaleo-earth/60">Email *</span>
+            <input type="email" name="email" required class="mt-1.5 w-full font-body text-sm text-kaleo-earth bg-kaleo-sand/60 border border-kaleo-earth/20 rounded-xl px-4 py-3 outline-none focus:border-kaleo-terracotta transition-colors" />
+          </label>
+          <label class="block">
+            <span class="font-body text-xs uppercase tracking-[0.15em] text-kaleo-earth/60">Phone</span>
+            <input type="tel" name="phone" class="mt-1.5 w-full font-body text-sm text-kaleo-earth bg-kaleo-sand/60 border border-kaleo-earth/20 rounded-xl px-4 py-3 outline-none focus:border-kaleo-terracotta transition-colors" />
+          </label>
+          <label class="block">
+            <span class="font-body text-xs uppercase tracking-[0.15em] text-kaleo-earth/60">Company / Organization</span>
+            <input type="text" name="company" class="mt-1.5 w-full font-body text-sm text-kaleo-earth bg-kaleo-sand/60 border border-kaleo-earth/20 rounded-xl px-4 py-3 outline-none focus:border-kaleo-terracotta transition-colors" />
+          </label>
+        </div>
+        <label class="block">
+          <span class="font-body text-xs uppercase tracking-[0.15em] text-kaleo-earth/60">Your Requirements *</span>
+          <textarea name="message" rows="4" required placeholder="Quantity, dimensions, site conditions, timeline — the more detail, the faster our quote." class="mt-1.5 w-full font-body text-sm text-kaleo-earth bg-kaleo-sand/60 border border-kaleo-earth/20 rounded-xl px-4 py-3 outline-none focus:border-kaleo-terracotta transition-colors resize-y"></textarea>
+        </label>
+        <button type="submit" id="inq-submit" class="w-full font-body text-sm uppercase tracking-[0.12em] bg-kaleo-earth text-kaleo-cream rounded-full px-8 py-4 hover:bg-kaleo-terracotta transition-colors">Send Inquiry</button>
+        <p id="inq-status" class="font-body text-sm text-center min-h-[1.25rem]"></p>
+        <p class="font-body text-xs text-kaleo-earth/40 text-center">Prefer chat? <a href="https://wa.me/8801714073604" target="_blank" rel="noopener noreferrer" class="text-kaleo-terracotta hover:underline">WhatsApp +880 1714 073604</a></p>
+      </form>
+    </div>
+  </div>
+  <script>
+    (function () {
+      var modal = document.getElementById('inquiry-modal');
+      var form = document.getElementById('inquiry-form');
+      var status = document.getElementById('inq-status');
+      var submitBtn = document.getElementById('inq-submit');
+      var productInput = document.getElementById('inq-product');
+      var productLabel = document.getElementById('inq-product-label');
+
+      function openModal(product) {
+        productInput.value = product;
+        productLabel.textContent = product;
+        status.textContent = '';
+        status.className = 'font-body text-sm text-center min-h-[1.25rem]';
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+        document.body.style.overflow = 'hidden';
+      }
+      function closeModal() {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+        document.body.style.overflow = '';
+      }
+
+      document.querySelectorAll('[data-inquiry]').forEach(function (btn) {
+        btn.addEventListener('click', function () { openModal(btn.getAttribute('data-inquiry')); });
+      });
+      modal.querySelectorAll('[data-close]').forEach(function (el) {
+        el.addEventListener('click', closeModal);
+      });
+      document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeModal(); });
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Sending…';
+        status.textContent = '';
+        var data = {};
+        new FormData(form).forEach(function (v, k) { data[k] = v; });
+        data._subject = 'NSP Product Inquiry — ' + data.product;
+        data._template = 'table';
+        data._captcha = 'false';
+        data._autoresponse = 'Dear ' + data.name + ',
+
+Thank you for contacting Nobo Shakti Prokushal (NSP). Your inquiry about "' + data.product + '" has been received. Our engineering team will respond within one business day.
+
+— Nobo Shakti Prokushal (NSP), Dhaka
+Phone / WhatsApp: +880 1714 073604
+www.noboshaktiprokushal.com';
+        fetch('https://formsubmit.co/ajax/info@mostafasimran.com', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify(data)
+        }).then(function (res) {
+          if (!res.ok) throw new Error('failed');
+          status.textContent = 'Inquiry sent — thank you! A confirmation email is on its way to your inbox.';
+          status.className = 'font-body text-sm text-center min-h-[1.25rem] text-green-700';
+          form.reset();
+        }).catch(function () {
+          status.innerHTML = 'Something went wrong. Please email <a class="text-kaleo-terracotta underline" href="mailto:info@mostafasimran.com">info@mostafasimran.com</a> or WhatsApp +880 1714 073604.';
+          status.className = 'font-body text-sm text-center min-h-[1.25rem] text-red-700';
+        }).finally(function () {
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Send Inquiry';
+        });
+      });
+    })();
+  </script>
 
   <footer class="bg-kaleo-charcoal text-kaleo-cream py-20">
     <div class="max-w-7xl mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-3 gap-12">

@@ -175,7 +175,7 @@ index_body = """
       <div class="reveal"><p class="font-display text-4xl md:text-5xl">40+</p><p class="font-body text-xs uppercase tracking-[0.15em] text-kaleo-cream/60 mt-2">Hospitals Served</p></div>
       <div class="reveal"><p class="font-display text-4xl md:text-5xl">15+</p><p class="font-body text-xs uppercase tracking-[0.15em] text-kaleo-cream/60 mt-2">Engineers &amp; Technicians</p></div>
       <div class="reveal"><p class="font-display text-4xl md:text-5xl">20+</p><p class="font-body text-xs uppercase tracking-[0.15em] text-kaleo-cream/60 mt-2">Years of Delivery</p></div>
-      <div class="reveal"><p class="font-display text-4xl md:text-5xl">4</p><p class="font-body text-xs uppercase tracking-[0.15em] text-kaleo-cream/60 mt-2">Product Lines</p></div>
+      <div class="reveal"><p class="font-display text-4xl md:text-5xl">5</p><p class="font-body text-xs uppercase tracking-[0.15em] text-kaleo-cream/60 mt-2">Product Lines</p></div>
     </div>
   </section>
 
@@ -225,7 +225,7 @@ write_page("index.html", "Nobo Shakti Prokushal (NSP) — Engineering Contractor
 products_body = page_header(
     "NSP Product Lines",
     "Engineered Products, Built In-House",
-    "Four product lines designed and fabricated by NSP — from vehicle body structures to capsule homes and solar systems.",
+    "Five product lines designed and fabricated by NSP — from vehicle body structures to capsule homes, solar and biogas-bio-fuel systems.",
 ) + """
   <section class="bg-kaleo-sand py-16 md:py-24 space-y-24">
 
@@ -423,6 +423,30 @@ products_body = page_header(
     </div>
   </section>
 
+  <section class="bg-kaleo-sand py-16 md:py-24 border-t border-kaleo-earth/10">
+    <div class="max-w-7xl mx-auto px-6 md:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div class="reveal order-2 lg:order-1">
+        <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 shadow-xl">
+          <img src="card-energy.webp" alt="Industrial single-dome biogas plant with gas flare at a poultry farm" class="w-full object-cover" loading="lazy" />
+        </div>
+        <p class="font-body text-xs text-kaleo-earth/50 mt-3 text-center">Industrial single-dome biogas plant — biogas–diesel hybrid generation for a poultry farm</p>
+      </div>
+      <div class="reveal order-1 lg:order-2">
+        <span class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-terracotta">Product 05</span>
+        <h2 class="font-display text-3xl md:text-5xl text-kaleo-earth mt-3">Biogas &amp; Bio-fuel Systems</h2>
+        <p class="font-body text-base text-kaleo-earth/70 leading-relaxed mt-5">
+          Turnkey biogas plants and bio-fuel conversion for poultry farms, hatcheries and industry — capturing waste, purifying biogas and putting hybrid power back to work.
+        </p>
+        <ul class="mt-6 space-y-3">
+          <li class="flex items-start gap-3"><span class="text-kaleo-terracotta mt-1">—</span><span class="font-body text-sm text-kaleo-earth/75">Industrial single-dome biogas plants with biogas–diesel hybrid generation for poultry farms</span></li>
+          <li class="flex items-start gap-3"><span class="text-kaleo-terracotta mt-1">—</span><span class="font-body text-sm text-kaleo-earth/75">Biogas purification and bi-fuel (methane–diesel) conversion systems for poultry waste utilization</span></li>
+          <li class="flex items-start gap-3"><span class="text-kaleo-terracotta mt-1">—</span><span class="font-body text-sm text-kaleo-earth/75">Bi-fuel irrigation engine development with BCSIR — Bi-Fuel Conversion Project (2006–2007)</span></li>
+        </ul>
+        <button type="button" data-inquiry="Biogas & Bio-fuel Systems" class="inline-block mt-7 font-body text-sm uppercase tracking-[0.12em] bg-kaleo-earth text-kaleo-cream rounded-full px-7 py-3.5 hover:bg-kaleo-terracotta transition-colors">Send Inquiry</button>
+      </div>
+    </div>
+  </section>
+
   <section class="bg-kaleo-cream py-16 md:py-24 border-t border-kaleo-earth/10">
     <div class="max-w-7xl mx-auto px-6 md:px-8">
       <div class="text-center max-w-2xl mx-auto reveal">
@@ -544,6 +568,12 @@ products_body = page_header(
           { key: 'load', label: 'Expected load (W or kW)' },
           { key: 'backup', label: 'Backup requirement (hours)' },
           { key: 'budget', label: 'Budget range' }
+        ],
+        'Biogas & Bio-fuel Systems': [
+          { key: 'site_location', label: 'Farm / plant location', required: true },
+          { key: 'feedstock', label: 'Waste type', type: 'select', options: ['Poultry litter & waste', 'Cattle / dairy waste', 'Organic / food waste', 'Industrial effluent'] },
+          { key: 'capacity', label: 'Expected plant capacity (kW or m³/day)' },
+          { key: 'service', label: 'Service needed', type: 'select', options: ['Complete biogas plant', 'Biogas purification', 'Bi-fuel conversion', 'Consultancy & design'] }
         ]
       };
 
@@ -635,7 +665,7 @@ products_body = page_header(
   </script>
 """
 write_page("products.html", "Products — Nobo Shakti Prokushal (NSP)",
-           "NSP products: customized vehicle body structures (bus body, caravan, golf cart), Sound Pod acoustic pods, capsule homes and solar home systems.",
+           "NSP products: customized vehicle body structures (bus body, caravan, golf cart), Sound Pod acoustic pods, capsule homes, solar home systems and biogas & bio-fuel systems.",
            "products.html", products_body)
 
 # ============================================================ SERVICES (now with 3D printing + machine design)
@@ -1182,6 +1212,7 @@ contact_body = page_header(
             <option>Products — Sound Pod</option>
             <option>Products — Capsule Homes</option>
             <option>Products — Solar Home</option>
+            <option>Products — Biogas &amp; Bio-fuel Systems</option>
             <option>Services — Design &amp; Documentation</option>
             <option>Services — 3D Printing &amp; Prototyping</option>
             <option>Services — Machine Design</option>

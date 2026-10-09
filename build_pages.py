@@ -10,7 +10,7 @@ HEAD = """<!doctype html>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{title}</title>
   <meta name="description" content="{desc}" />
-  <link rel="icon" href="/profile/nsp-logo.png" />
+  <link rel="icon" href="profile/nsp-logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
@@ -58,7 +58,7 @@ def nav(active):
     return f"""  <header class="sticky top-0 z-50 bg-kaleo-sand/90 backdrop-blur-md border-b border-kaleo-earth/10">
     <div class="max-w-7xl mx-auto px-6 md:px-8 h-16 flex items-center justify-between">
       <a href="index.html" class="flex items-center gap-3">
-        <img src="/profile/nsp-mark.png" alt="NSP logo" class="h-11 w-auto" />
+        <img src="profile/nsp-mark.png" alt="NSP logo" class="h-11 w-auto" />
         <span class="leading-tight hidden sm:block">
           <span class="font-display text-lg md:text-xl tracking-wide text-kaleo-earth block">Nobo Shakti <span class="text-kaleo-terracotta">Prokushal</span></span>
           <span class="font-body text-[10px] uppercase tracking-[0.22em] text-kaleo-earth/50 block mt-0.5">Engineering Contractor · Est. 2007</span>
@@ -79,7 +79,7 @@ FOOTER = """
     <div class="max-w-7xl mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-3 gap-12">
       <div>
         <div class="flex items-center gap-3">
-          <img src="/profile/nsp-mark.png" alt="NSP logo" class="h-12 w-auto" />
+          <img src="profile/nsp-mark.png" alt="NSP logo" class="h-12 w-auto" />
           <div class="leading-tight">
             <p class="font-display text-2xl">Nobo Shakti Prokushal</p>
             <p class="font-body text-[10px] uppercase tracking-[0.22em] text-kaleo-cream/50 mt-1">Engineering Contractor · Est. 2007</p>
@@ -153,7 +153,7 @@ index_body = """
       </div>
       <div class="reveal">
         <div class="rounded-3xl bg-kaleo-earth text-kaleo-cream p-8 md:p-10 shadow-xl relative overflow-hidden">
-          <img src="/profile/nsp-mark.png" alt="" aria-hidden="true" class="absolute -right-8 -bottom-10 w-44 opacity-10 pointer-events-none" />
+          <img src="profile/nsp-mark.png" alt="" aria-hidden="true" class="absolute -right-8 -bottom-10 w-44 opacity-10 pointer-events-none" />
           <span class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-terracotta">Our Vision</span>
           <p class="font-display text-2xl md:text-[1.75rem] leading-snug mt-4">
             To establish an institute for research and development in the engineering field of Bangladesh — for sustainable development.
@@ -195,10 +195,10 @@ index_body = """
           </p>
         </div>
         <div class="reveal grid grid-cols-2 gap-6">
-          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 aspect-[4/3]"><img src="/profile/oxygen-manifold.webp" alt="Oxygen manifold room with cylinder banks" class="w-full h-full object-cover" loading="lazy" /></div>
-          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 aspect-[4/3] mt-6"><img src="/profile/chillers.webp" alt="Air-cooled chillers installed on rooftop" class="w-full h-full object-cover" loading="lazy" /></div>
-          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 aspect-[4/3]"><img src="/profile/scrub-station.webp" alt="Stainless steel OT scrub station fabricated by NSP" class="w-full h-full object-cover" loading="lazy" /></div>
-          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 aspect-[4/3] mt-6"><img src="/profile/workshop.webp" alt="NSP workshop fabrication in progress" class="w-full h-full object-cover" loading="lazy" /></div>
+          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 aspect-[4/3]"><img src="profile/oxygen-manifold.webp" alt="Oxygen manifold room with cylinder banks" class="w-full h-full object-cover" loading="lazy" /></div>
+          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 aspect-[4/3] mt-6"><img src="profile/chillers.webp" alt="Air-cooled chillers installed on rooftop" class="w-full h-full object-cover" loading="lazy" /></div>
+          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 aspect-[4/3]"><img src="profile/scrub-station.webp" alt="Stainless steel OT scrub station fabricated by NSP" class="w-full h-full object-cover" loading="lazy" /></div>
+          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 aspect-[4/3] mt-6"><img src="profile/workshop.webp" alt="NSP workshop fabrication in progress" class="w-full h-full object-cover" loading="lazy" /></div>
         </div>
       </div>
     </div>
@@ -245,7 +245,7 @@ products_body = page_header(
       </div>
       <div class="reveal">
         <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 shadow-xl">
-          <img src="/scania-bus.webp" alt="Bangladesh's first luxury bus body, designed and built by NSP for Scania" class="w-full object-cover" loading="lazy" />
+          <img src="scania-bus.webp" alt="Bangladesh's first luxury bus body, designed and built by NSP for Scania" class="w-full object-cover" loading="lazy" />
         </div>
         <p class="font-body text-xs text-kaleo-earth/50 mt-3 text-center">Bangladesh's first luxury bus body — designed and built by NSP for Scania, 2010–2011</p>
       </div>
@@ -261,31 +261,31 @@ products_body = page_header(
       </div>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
         <div class="reveal bg-kaleo-cream border border-kaleo-earth/10 rounded-3xl overflow-hidden">
-          <div class="aspect-[4/3] overflow-hidden"><img src="/soundpod/single-1.webp" alt="NSP single occupancy sound pod" class="w-full h-full object-cover" loading="lazy" /></div>
+          <div class="aspect-[4/3] overflow-hidden"><img src="soundpod/single-1.webp" alt="NSP single occupancy sound pod" class="w-full h-full object-cover" loading="lazy" /></div>
           <div class="p-6"><h3 class="font-display text-xl text-kaleo-earth">Single Pod</h3><p class="font-body text-sm text-kaleo-earth/65 mt-2">One-person acoustic pod for calls, focus work and telehealth.</p></div>
         </div>
         <div class="reveal bg-kaleo-cream border border-kaleo-earth/10 rounded-3xl overflow-hidden">
-          <div class="aspect-[4/3] overflow-hidden"><img src="/soundpod/double-1.webp" alt="NSP double occupancy sound pod" class="w-full h-full object-cover" loading="lazy" /></div>
+          <div class="aspect-[4/3] overflow-hidden"><img src="soundpod/double-1.webp" alt="NSP double occupancy sound pod" class="w-full h-full object-cover" loading="lazy" /></div>
           <div class="p-6"><h3 class="font-display text-xl text-kaleo-earth">Double Pod</h3><p class="font-body text-sm text-kaleo-earth/65 mt-2">Two-person pod for meetings, consultations and interviews.</p></div>
         </div>
         <div class="reveal bg-kaleo-cream border border-kaleo-earth/10 rounded-3xl overflow-hidden">
-          <div class="aspect-[4/3] overflow-hidden"><img src="/soundpod/double-3.webp" alt="Customized NSP sound pod installation" class="w-full h-full object-cover" loading="lazy" /></div>
+          <div class="aspect-[4/3] overflow-hidden"><img src="soundpod/double-3.webp" alt="Customized NSP sound pod installation" class="w-full h-full object-cover" loading="lazy" /></div>
           <div class="p-6"><h3 class="font-display text-xl text-kaleo-earth">Customized</h3><p class="font-body text-sm text-kaleo-earth/65 mt-2">Bespoke sizes, finishes and integrations — sized to your floor plan.</p></div>
         </div>
       </div>
       <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
-        <div class="reveal rounded-2xl overflow-hidden border border-kaleo-earth/10 aspect-square"><img src="/soundpod/single-2.webp" alt="Sound pod interior" class="w-full h-full object-cover" loading="lazy" /></div>
-        <div class="reveal rounded-2xl overflow-hidden border border-kaleo-earth/10 aspect-square"><img src="/soundpod/double-2.webp" alt="Double sound pod interior" class="w-full h-full object-cover" loading="lazy" /></div>
-        <div class="reveal rounded-2xl overflow-hidden border border-kaleo-earth/10 aspect-square"><img src="/soundpod/double-4.webp" alt="Sound pod at exhibition" class="w-full h-full object-cover" loading="lazy" /></div>
-        <div class="reveal rounded-2xl overflow-hidden border border-kaleo-earth/10 aspect-square"><img src="/expo-malaysia.webp" alt="NSP sound pod showcased at international exhibition in Malaysia" class="w-full h-full object-cover" loading="lazy" /></div>
+        <div class="reveal rounded-2xl overflow-hidden border border-kaleo-earth/10 aspect-square"><img src="soundpod/single-2.webp" alt="Sound pod interior" class="w-full h-full object-cover" loading="lazy" /></div>
+        <div class="reveal rounded-2xl overflow-hidden border border-kaleo-earth/10 aspect-square"><img src="soundpod/double-2.webp" alt="Double sound pod interior" class="w-full h-full object-cover" loading="lazy" /></div>
+        <div class="reveal rounded-2xl overflow-hidden border border-kaleo-earth/10 aspect-square"><img src="soundpod/double-4.webp" alt="Sound pod at exhibition" class="w-full h-full object-cover" loading="lazy" /></div>
+        <div class="reveal rounded-2xl overflow-hidden border border-kaleo-earth/10 aspect-square"><img src="expo-malaysia.webp" alt="NSP sound pod showcased at international exhibition in Malaysia" class="w-full h-full object-cover" loading="lazy" /></div>
       </div>
     </div>
 
     <div class="max-w-7xl mx-auto px-6 md:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
       <div class="reveal order-2 lg:order-1">
         <div class="grid grid-cols-2 gap-4">
-          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 aspect-[3/4]"><img src="/econest-capsule.webp" alt="NSP EcoNest capsule home exterior" class="w-full h-full object-cover" loading="lazy" /></div>
-          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 aspect-[3/4] mt-8"><img src="/capsule-build.webp" alt="Capsule home under fabrication at NSP workshop" class="w-full h-full object-cover" loading="lazy" /></div>
+          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 aspect-[3/4]"><img src="econest-capsule.webp" alt="NSP EcoNest capsule home exterior" class="w-full h-full object-cover" loading="lazy" /></div>
+          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 aspect-[3/4] mt-8"><img src="capsule-build.webp" alt="Capsule home under fabrication at NSP workshop" class="w-full h-full object-cover" loading="lazy" /></div>
         </div>
       </div>
       <div class="reveal order-1 lg:order-2">
@@ -319,7 +319,7 @@ products_body = page_header(
       </div>
       <div class="reveal">
         <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 shadow-xl">
-          <img src="/card-energy.webp" alt="Solar and biogas renewable energy installation by NSP" class="w-full object-cover" loading="lazy" />
+          <img src="card-energy.webp" alt="Solar and biogas renewable energy installation by NSP" class="w-full object-cover" loading="lazy" />
         </div>
         <p class="font-body text-xs text-kaleo-earth/50 mt-3 text-center">NSP renewable energy installations — solar and biogas hybrid systems</p>
       </div>
@@ -432,15 +432,15 @@ projects_body = page_header(
           </ul>
         </div>
         <div class="reveal space-y-4">
-          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 shadow-xl"><img src="/profile/oxygen-manifold.webp" alt="Oxygen manifold room commissioned by NSP" class="w-full object-cover" loading="lazy" /></div>
-          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 shadow-xl"><img src="/profile/sprinkler.webp" alt="Fire sprinkler pipework installation" class="w-full object-cover" loading="lazy" /></div>
+          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 shadow-xl"><img src="profile/oxygen-manifold.webp" alt="Oxygen manifold room commissioned by NSP" class="w-full object-cover" loading="lazy" /></div>
+          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 shadow-xl"><img src="profile/sprinkler.webp" alt="Fire sprinkler pipework installation" class="w-full object-cover" loading="lazy" /></div>
         </div>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
         <div class="reveal order-2 lg:order-1 space-y-4">
-          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 shadow-xl"><img src="/profile/blower-silencers.webp" alt="Blowers with acoustic silencers installed by NSP" class="w-full object-cover" loading="lazy" /></div>
-          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 shadow-xl"><img src="/profile/chiller-plant.webp" alt="Chiller plant machine installation" class="w-full object-cover" loading="lazy" /></div>
+          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 shadow-xl"><img src="profile/blower-silencers.webp" alt="Blowers with acoustic silencers installed by NSP" class="w-full object-cover" loading="lazy" /></div>
+          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 shadow-xl"><img src="profile/chiller-plant.webp" alt="Chiller plant machine installation" class="w-full object-cover" loading="lazy" /></div>
         </div>
         <div class="reveal order-1 lg:order-2">
           <span class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-terracotta">Discipline 02</span>

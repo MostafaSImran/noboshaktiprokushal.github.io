@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products — Nobo Shakti Prokushal (NSP)</title>
+  <meta name="description" content="NSP products: customized vehicle body structures (bus body, caravan, golf cart), Sound Pod acoustic pods, capsule homes and solar home systems." />
+  <link rel="icon" href="/profile/nsp-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            kaleo: { sand: '#EAE4D9', charcoal: '#1C1C1C', earth: '#2A2A2A', cream: '#F3F0EB', terracotta: '#8C7B6B' },
+          },
+          fontFamily: {
+            display: ['"Cormorant Garamond"', 'serif'],
+            body: ['Inter', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .reveal { opacity: 0; transform: translateY(28px); transition: opacity .8s ease, transform .8s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+  </style>
+</head>
+<body class="bg-kaleo-sand font-body text-kaleo-earth antialiased">
+  <header class="sticky top-0 z-50 bg-kaleo-sand/90 backdrop-blur-md border-b border-kaleo-earth/10">
+    <div class="max-w-7xl mx-auto px-6 md:px-8 h-16 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-3">
+        <img src="/profile/nsp-logo.png" alt="NSP logo" class="h-9 w-auto" />
+        <span class="font-display text-xl md:text-2xl tracking-wide text-kaleo-earth hidden sm:inline">Nobo Shakti <span class="text-kaleo-terracotta">Prokushal</span></span>
+      </a>
+      <nav class="hidden lg:flex items-center gap-6 font-body text-xs uppercase tracking-[0.15em] text-kaleo-earth/70">
+        <a href="index.html" class="hover:text-kaleo-terracotta transition-colors">Home / About</a>
+        <a href="products.html" class="text-kaleo-terracotta">Products</a>
+        <a href="services.html" class="hover:text-kaleo-terracotta transition-colors">Services</a>
+        <a href="projects.html" class="hover:text-kaleo-terracotta transition-colors">Projects</a>
+        <a href="signature.html" class="hover:text-kaleo-terracotta transition-colors">Signature Projects</a>
+        <a href="why-nsp.html" class="hover:text-kaleo-terracotta transition-colors">Why NSP</a>
+        <a href="collaboration.html" class="hover:text-kaleo-terracotta transition-colors">Collaboration</a>
+        <a href="contact.html" class="hover:text-kaleo-terracotta transition-colors">Contact</a>
+      </nav>
+      <a href="contact.html" class="font-body text-xs uppercase tracking-[0.12em] bg-kaleo-earth text-kaleo-cream rounded-full px-5 py-2.5 hover:bg-kaleo-terracotta transition-colors">
+        Get a Quote
+      </a>
+    </div>
+  </header>
+  <section class="bg-kaleo-cream">
+    <div class="max-w-7xl mx-auto px-6 md:px-8 py-20 md:py-28 text-center reveal visible">
+      <span class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-terracotta">NSP Product Lines</span>
+      <h1 class="font-display text-4xl md:text-6xl text-kaleo-earth mt-4 leading-tight">Engineered Products, Built In-House</h1>
+      <p class="font-body text-base md:text-lg text-kaleo-earth/70 leading-relaxed max-w-2xl mx-auto mt-6">Four product lines designed and fabricated by NSP — from vehicle body structures to capsule homes and solar systems.</p>
+    </div>
+  </section>
+
+  <section class="bg-kaleo-sand py-16 md:py-24 space-y-24">
+
+    <div class="max-w-7xl mx-auto px-6 md:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div class="reveal">
+        <span class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-terracotta">Product 01</span>
+        <h2 class="font-display text-3xl md:text-5xl text-kaleo-earth mt-3">Customized Vehicle Body Structure</h2>
+        <p class="font-body text-base text-kaleo-earth/70 leading-relaxed mt-5">
+          NSP designs and fabricates complete vehicle body structures — engineered for strength, comfort and road conditions in Bangladesh. Our landmark achievement: the first luxury bus body in Bangladesh, built for Scania.
+        </p>
+        <ul class="mt-6 space-y-3">
+          <li class="flex items-start gap-3"><span class="text-kaleo-terracotta mt-1">—</span><span class="font-body text-sm text-kaleo-earth/75">Bus Body — luxury coach structures, structural framing and interior fit-out</span></li>
+          <li class="flex items-start gap-3"><span class="text-kaleo-terracotta mt-1">—</span><span class="font-body text-sm text-kaleo-earth/75">Caravan — customized travel and mobile living units</span></li>
+          <li class="flex items-start gap-3"><span class="text-kaleo-terracotta mt-1">—</span><span class="font-body text-sm text-kaleo-earth/75">Golf Cart — purpose-built utility and resort vehicles</span></li>
+        </ul>
+        <a href="contact.html" class="inline-block mt-7 font-body text-sm uppercase tracking-[0.12em] bg-kaleo-earth text-kaleo-cream rounded-full px-7 py-3.5 hover:bg-kaleo-terracotta transition-colors">Request a Build</a>
+      </div>
+      <div class="reveal">
+        <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 shadow-xl">
+          <img src="/scania-bus.webp" alt="Bangladesh's first luxury bus body, designed and built by NSP for Scania" class="w-full object-cover" loading="lazy" />
+        </div>
+        <p class="font-body text-xs text-kaleo-earth/50 mt-3 text-center">Bangladesh's first luxury bus body — designed and built by NSP for Scania, 2010–2011</p>
+      </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-6 md:px-8">
+      <div class="text-center max-w-2xl mx-auto reveal">
+        <span class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-terracotta">Product 02</span>
+        <h2 class="font-display text-3xl md:text-5xl text-kaleo-earth mt-3">Sound Pod</h2>
+        <p class="font-body text-base text-kaleo-earth/70 leading-relaxed mt-5">
+          Acoustic isolation pods for offices, healthcare, education and industry — single occupancy, double occupancy, or fully customized to your space and use case.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
+        <div class="reveal bg-kaleo-cream border border-kaleo-earth/10 rounded-3xl overflow-hidden">
+          <div class="aspect-[4/3] overflow-hidden"><img src="/soundpod/single-1.webp" alt="NSP single occupancy sound pod" class="w-full h-full object-cover" loading="lazy" /></div>
+          <div class="p-6"><h3 class="font-display text-xl text-kaleo-earth">Single Pod</h3><p class="font-body text-sm text-kaleo-earth/65 mt-2">One-person acoustic pod for calls, focus work and telehealth.</p></div>
+        </div>
+        <div class="reveal bg-kaleo-cream border border-kaleo-earth/10 rounded-3xl overflow-hidden">
+          <div class="aspect-[4/3] overflow-hidden"><img src="/soundpod/double-1.webp" alt="NSP double occupancy sound pod" class="w-full h-full object-cover" loading="lazy" /></div>
+          <div class="p-6"><h3 class="font-display text-xl text-kaleo-earth">Double Pod</h3><p class="font-body text-sm text-kaleo-earth/65 mt-2">Two-person pod for meetings, consultations and interviews.</p></div>
+        </div>
+        <div class="reveal bg-kaleo-cream border border-kaleo-earth/10 rounded-3xl overflow-hidden">
+          <div class="aspect-[4/3] overflow-hidden"><img src="/soundpod/double-3.webp" alt="Customized NSP sound pod installation" class="w-full h-full object-cover" loading="lazy" /></div>
+          <div class="p-6"><h3 class="font-display text-xl text-kaleo-earth">Customized</h3><p class="font-body text-sm text-kaleo-earth/65 mt-2">Bespoke sizes, finishes and integrations — sized to your floor plan.</p></div>
+        </div>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-6">
+        <div class="reveal rounded-2xl overflow-hidden border border-kaleo-earth/10 aspect-square"><img src="/soundpod/single-2.webp" alt="Sound pod interior" class="w-full h-full object-cover" loading="lazy" /></div>
+        <div class="reveal rounded-2xl overflow-hidden border border-kaleo-earth/10 aspect-square"><img src="/soundpod/double-2.webp" alt="Double sound pod interior" class="w-full h-full object-cover" loading="lazy" /></div>
+        <div class="reveal rounded-2xl overflow-hidden border border-kaleo-earth/10 aspect-square"><img src="/soundpod/double-4.webp" alt="Sound pod at exhibition" class="w-full h-full object-cover" loading="lazy" /></div>
+        <div class="reveal rounded-2xl overflow-hidden border border-kaleo-earth/10 aspect-square"><img src="/expo-malaysia.webp" alt="NSP sound pod showcased at international exhibition in Malaysia" class="w-full h-full object-cover" loading="lazy" /></div>
+      </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-6 md:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div class="reveal order-2 lg:order-1">
+        <div class="grid grid-cols-2 gap-4">
+          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 aspect-[3/4]"><img src="/econest-capsule.webp" alt="NSP EcoNest capsule home exterior" class="w-full h-full object-cover" loading="lazy" /></div>
+          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 aspect-[3/4] mt-8"><img src="/capsule-build.webp" alt="Capsule home under fabrication at NSP workshop" class="w-full h-full object-cover" loading="lazy" /></div>
+        </div>
+      </div>
+      <div class="reveal order-1 lg:order-2">
+        <span class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-terracotta">Product 03</span>
+        <h2 class="font-display text-3xl md:text-5xl text-kaleo-earth mt-3">Capsule Homes</h2>
+        <p class="font-body text-base text-kaleo-earth/70 leading-relaxed mt-5">
+          Prefabricated capsule living units — factory-built, transportable and installable in days. A modern answer to resort housing, site accommodation and compact urban living, with integrated electromechanical systems.
+        </p>
+        <ul class="mt-6 space-y-3">
+          <li class="flex items-start gap-3"><span class="text-kaleo-terracotta mt-1">—</span><span class="font-body text-sm text-kaleo-earth/75">Factory fabrication with site installation in days, not months</span></li>
+          <li class="flex items-start gap-3"><span class="text-kaleo-terracotta mt-1">—</span><span class="font-body text-sm text-kaleo-earth/75">Integrated HVAC, electrical and plumbing modules</span></li>
+          <li class="flex items-start gap-3"><span class="text-kaleo-terracotta mt-1">—</span><span class="font-body text-sm text-kaleo-earth/75">Customizable layouts for resorts, staff housing and clinics</span></li>
+        </ul>
+        <a href="contact.html" class="inline-block mt-7 font-body text-sm uppercase tracking-[0.12em] bg-kaleo-earth text-kaleo-cream rounded-full px-7 py-3.5 hover:bg-kaleo-terracotta transition-colors">Discuss Your Unit</a>
+      </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto px-6 md:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div class="reveal">
+        <span class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-terracotta">Product 04</span>
+        <h2 class="font-display text-3xl md:text-5xl text-kaleo-earth mt-3">Solar Home System</h2>
+        <p class="font-body text-base text-kaleo-earth/70 leading-relaxed mt-5">
+          Reliable off-grid and hybrid solar packages for homes and small businesses — designed for Bangladesh's climate and grid conditions, installed and maintained by NSP field teams.
+        </p>
+        <ul class="mt-6 space-y-3">
+          <li class="flex items-start gap-3"><span class="text-kaleo-terracotta mt-1">—</span><span class="font-body text-sm text-kaleo-earth/75">200 solar DC home packages (25–40 W) installed across Kurigram District</span></li>
+          <li class="flex items-start gap-3"><span class="text-kaleo-terracotta mt-1">—</span><span class="font-body text-sm text-kaleo-earth/75">Solar, hydroponic and organic fertilizer integration for rooftop gardening</span></li>
+          <li class="flex items-start gap-3"><span class="text-kaleo-terracotta mt-1">—</span><span class="font-body text-sm text-kaleo-earth/75">Hybrid configurations with battery backup and generator interlock</span></li>
+        </ul>
+        <a href="contact.html" class="inline-block mt-7 font-body text-sm uppercase tracking-[0.12em] bg-kaleo-earth text-kaleo-cream rounded-full px-7 py-3.5 hover:bg-kaleo-terracotta transition-colors">Get Solar</a>
+      </div>
+      <div class="reveal">
+        <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 shadow-xl">
+          <img src="/card-energy.webp" alt="Solar and biogas renewable energy installation by NSP" class="w-full object-cover" loading="lazy" />
+        </div>
+        <p class="font-body text-xs text-kaleo-earth/50 mt-3 text-center">NSP renewable energy installations — solar and biogas hybrid systems</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-kaleo-charcoal text-kaleo-cream py-20">
+    <div class="max-w-7xl mx-auto px-6 md:px-8 grid grid-cols-1 md:grid-cols-3 gap-12">
+      <div>
+        <div class="flex items-center gap-3">
+          <img src="/profile/nsp-logo.png" alt="NSP logo" class="h-10 w-auto" />
+          <p class="font-display text-2xl">Nobo Shakti Prokushal</p>
+        </div>
+        <p class="font-body text-sm text-kaleo-cream/60 leading-relaxed mt-4">Engineering contractor — healthcare MEP, medical gas, fire protection, acoustics, fabrication and renewable energy. Dhaka, Bangladesh.</p>
+      </div>
+      <div>
+        <p class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-cream/50">Contact</p>
+        <ul class="mt-4 space-y-2 font-body text-sm text-kaleo-cream/75">
+          <li><a href="tel:+8801714073604" class="hover:text-kaleo-cream transition-colors">+880 1714 073604</a></li>
+          <li><a href="tel:+8801711055476" class="hover:text-kaleo-cream transition-colors">+880 1711 055476</a></li>
+          <li><a href="mailto:info@mostafasimran.com" class="hover:text-kaleo-cream transition-colors">info@mostafasimran.com</a></li>
+          <li><a href="https://wa.me/8801714073604" class="hover:text-kaleo-cream transition-colors">WhatsApp</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-cream/50">Offices</p>
+        <p class="font-body text-sm text-kaleo-cream/75 mt-4 leading-relaxed">Corporate: 73/H (GF) Green Road, Dhaka-1205<br />Workshop: House #10, Road #5/B, Middle Nandi Para, Khilgaon, Dhaka-1214</p>
+        <p class="font-body text-sm text-kaleo-cream/75 mt-3 leading-relaxed">TIN 653549294117 · BIN 19021092318<br />Trade License 000258 · IRC 104713</p>
+      </div>
+    </div>
+    <div class="max-w-7xl mx-auto px-6 md:px-8 mt-14 pt-8 border-t border-kaleo-cream/10 flex flex-col md:flex-row items-center justify-between gap-4">
+      <p class="font-body text-xs text-kaleo-cream/40">© 2026 Nobo Shakti Prokushal (NSP), Dhaka · Sister concern: NeoMed Healthcare Services</p>
+      <p class="font-body text-xs text-kaleo-cream/40">Sister site: <a href="https://www.mostafasimran.com" class="hover:text-kaleo-cream transition-colors">mostafasimran.com</a></p>
+    </div>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+  </script>
+</body>
+</html>

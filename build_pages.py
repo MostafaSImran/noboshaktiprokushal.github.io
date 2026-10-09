@@ -642,11 +642,6 @@ write_page("why-nsp.html", "Why NSP — Nobo Shakti Prokushal",
 
 # ============================================================ COLLABORATION
 collab_cards = [
-    ("Development Partners", [
-        "GIZ — Bangladesh Boiler Code Development Project (Key Expert engagement)",
-        "Save the Children — Critical Care Service, oxygen manifold systems at 20 Upazila Health Complexes",
-        "BCSIR — bi-fuel irrigation engine development research",
-    ]),
     ("Sister Concerns &amp; Group", [
         "NeoMed Healthcare Services (est. 2014) — medical supply and healthcare support",
         "PT Sun Moon Ecosystem — Indonesia (regional operations and eco-tourism engineering)",
@@ -672,7 +667,7 @@ collab_html = "\n\n".join(collab_block(t, i) for t, i in collab_cards)
 collaboration_body = page_header(
     "Collaboration",
     "Stronger Together",
-    "NSP works with development partners, research institutions, sister concerns and specialist companies — and is open to new collaborations.",
+    "NSP works with sister concerns and specialist partner companies across Bangladesh and beyond — and is open to new collaborations.",
 ) + f"""
   <section class="bg-kaleo-cream py-16 md:py-24 border-b border-kaleo-earth/10">
     <div class="max-w-7xl mx-auto px-6 md:px-8">
@@ -812,7 +807,7 @@ collaboration_body = page_header(
           </div>
           <div>
             <h3 class="font-display text-xl text-kaleo-terracotta">Research Collaboration</h3>
-            <p class="font-body text-sm text-kaleo-cream/70 leading-relaxed mt-2">Applied R&amp;D in bi-fuel engines, renewable energy and healthcare engineering, following our BCSIR work.</p>
+            <p class="font-body text-sm text-kaleo-cream/70 leading-relaxed mt-2">Applied R&amp;D in bi-fuel engines, renewable energy and healthcare engineering — open to university and institutional research partnerships.</p>
           </div>
         </div>
         <div class="text-center mt-10">
@@ -823,7 +818,7 @@ collaboration_body = page_header(
   </section>
 """
 write_page("collaboration.html", "Collaboration — Nobo Shakti Prokushal (NSP)",
-           "Collaborate with NSP: development partners (GIZ, Save the Children, BCSIR), sister concerns (NeoMed, PT Sun Moon Ecosystem), joint ventures, subcontracting and research.",
+           "Collaborate with NSP: sister concerns (NeoMed, PT Sun Moon Ecosystem), partner companies, joint ventures, subcontracting, supply and research.",
            "collaboration.html", collaboration_body)
 
 # ============================================================ CONTACT

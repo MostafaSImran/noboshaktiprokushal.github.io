@@ -60,7 +60,7 @@ def nav(active):
       <a href="index.html" class="flex items-center gap-4 md:gap-6">
         <img src="profile/nsp-mark.png" alt="NSP logo" class="h-20 md:h-28 w-auto" />
         <span class="leading-snug hidden sm:block">
-          <span class="font-display text-3xl md:text-5xl tracking-wide text-kaleo-earth block whitespace-nowrap">Nobo Shakti Prokushal</span>
+          <span class="font-display text-3xl md:text-5xl tracking-wide text-kaleo-earth block whitespace-nowrap">NoboShakti Prokushal</span>
           <span class="block text-2xl md:text-3xl text-kaleo-earth whitespace-nowrap" style="font-family:'Hind Siliguri','Noto Sans Bengali',Vrinda,'Shonar Bangla',sans-serif">নবশক্তি প্রকৌশল</span>
           <span class="font-body text-[11px] md:text-xs uppercase tracking-[0.5em] text-kaleo-earth/50 block mt-2">Dhaka, Bangladesh</span>
         </span>
@@ -90,7 +90,7 @@ FOOTER = """
         <div class="flex items-center gap-3">
           <img src="profile/nsp-mark.png" alt="NSP logo" class="h-12 w-auto" />
           <div class="leading-tight">
-            <p class="font-body text-base tracking-[0.15em] uppercase text-kaleo-cream/60">Nobo Shakti Prokushal</p>
+            <p class="font-body text-base tracking-[0.15em] uppercase text-kaleo-cream/60">NoboShakti Prokushal</p>
           </div>
         </div>
         <p class="font-body text-sm text-kaleo-cream/60 leading-relaxed mt-4">Engineering contractor — healthcare MEP, medical gas, fire protection, acoustics, fabrication and renewable energy. Dhaka, Bangladesh.</p>
@@ -111,7 +111,7 @@ FOOTER = """
       </div>
     </div>
     <div class="max-w-7xl mx-auto px-6 md:px-8 mt-14 pt-8 border-t border-kaleo-cream/10 flex flex-col md:flex-row items-center justify-between gap-4">
-      <p class="font-body text-xs text-kaleo-cream/40">© 2026 Nobo Shakti Prokushal (NSP), Dhaka · Sister concern: NeoMed Healthcare Services</p>
+      <p class="font-body text-xs text-kaleo-cream/40">© 2026 NoboShakti Prokushal (NSP), Dhaka · Sister concern: NeoMed Healthcare Services</p>
       <p class="font-body text-xs text-kaleo-cream/40">Sister site: <a href="https://www.mostafasimran.com" class="hover:text-kaleo-cream transition-colors">mostafasimran.com</a></p>
     </div>
   </footer>
@@ -170,7 +170,7 @@ index_body = """
         <div class="rounded-3xl bg-white/70 border border-kaleo-earth/10 p-8 md:p-10 mt-6 shadow-lg relative overflow-hidden">
           <span class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-terracotta">Our Mission</span>
           <p class="font-body text-base md:text-lg text-kaleo-earth/80 leading-relaxed mt-4">
-            To provide quality engineering services for industrial and medical structures across Bangladesh — through Nobo Shakti Prokushal and sister concern NeoMed Healthcare Services.
+            To provide quality engineering services for industrial and medical structures across Bangladesh — through NoboShakti Prokushal and sister concern NeoMed Healthcare Services.
           </p>
         </div>
         <p class="font-body text-xs text-kaleo-earth/40 mt-4 text-center">Vision &amp; Mission — as stated in the NSP corporate profile</p>
@@ -196,7 +196,7 @@ index_body = """
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-14">
         <div class="reveal">
           <p class="font-body text-base text-kaleo-earth/75 leading-relaxed">
-            Nobo Shakti Prokushal (NSP) is a Dhaka-based engineering contracting firm founded and led by Engr. Mostafa Shawkat Imran — Mechanical Engineer (RUET), MBA (AUST) and Fellow of the Institution of Engineers, Bangladesh. Starting in 2007 as an electromechanical design consultancy, NSP has grown into a full contracting house with its own workshop, fabrication team and field crews.
+            NoboShakti Prokushal (NSP) is a Dhaka-based engineering contracting firm founded and led by Engr. Mostafa Shawkat Imran — Mechanical Engineer (RUET), MBA (AUST) and Fellow of the Institution of Engineers, Bangladesh. Starting in 2007 as an electromechanical design consultancy, NSP has grown into a full contracting house with its own workshop, fabrication team and field crews.
           </p>
           <p class="font-body text-base text-kaleo-earth/75 leading-relaxed mt-5">
             Our work spans medical gas pipeline systems and fire protection for hospitals, acoustic engineering for industrial plants, custom fabrication from bus bodies to sound pods, and renewable energy systems for rural communities. Every project is delivered to international code — NFPA, HTM, ASME and BNBC — with documentation that survives any inspection. Sister concern NeoMed Healthcare Services extends our reach into medical supply.
@@ -225,8 +225,8 @@ index_body = """
     </div>
   </section>
 """
-write_page("index.html", "Nobo Shakti Prokushal (NSP) — Engineering Contractor, Dhaka",
-           "Nobo Shakti Prokushal (NSP) — Bangladesh engineering contractor for medical gas pipeline systems, healthcare MEP, fire protection, industrial acoustics and custom fabrication. 40+ hospitals served, 20+ years of delivery.",
+write_page("index.html", "NoboShakti Prokushal (NSP) — Engineering Contractor, Dhaka",
+           "NoboShakti Prokushal (NSP) — Bangladesh engineering contractor for medical gas pipeline systems, healthcare MEP, fire protection, industrial acoustics and custom fabrication. 40+ hospitals served, 20+ years of delivery.",
            "index.html", index_body)
 
 # ============================================================ PRODUCTS (unchanged content, logo nav auto)
@@ -688,7 +688,7 @@ products_body = page_header(
         data._subject = 'NSP Product Inquiry — ' + data.product;
         data._template = 'table';
         data._captcha = 'false';
-        data._autoresponse = 'Dear ' + data.name + ',\\n\\nThank you for contacting Nobo Shakti Prokushal (NSP). Your inquiry about "' + data.product + '" has been received. Our engineering team will respond within one business day.\\n\\n— Nobo Shakti Prokushal (NSP), Dhaka\\nPhone / WhatsApp: +880 1714 073604\\nwww.noboshaktiprokushal.com';
+        data._autoresponse = 'Dear ' + data.name + ',\\n\\nThank you for contacting NoboShakti Prokushal (NSP). Your inquiry about "' + data.product + '" has been received. Our engineering team will respond within one business day.\\n\\n— NoboShakti Prokushal (NSP), Dhaka\\nPhone / WhatsApp: +880 1714 073604\\nwww.noboshaktiprokushal.com';
         fetch('https://formsubmit.co/ajax/info@noboshaktiprokushal.com', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
@@ -710,7 +710,7 @@ products_body = page_header(
     })();
   </script>
 """
-write_page("products.html", "Products — Nobo Shakti Prokushal (NSP)",
+write_page("products.html", "Products — NoboShakti Prokushal (NSP)",
            "NSP products: customized vehicle body structures (bus body, caravan, golf cart), Sound Pod acoustic pods, capsule homes, solar home systems and biogas & bio-fuel systems.",
            "products.html", products_body)
 
@@ -1023,7 +1023,7 @@ why_body = page_header(
     </div>
   </section>
 """
-write_page("why-nsp.html", "Why NSP — Nobo Shakti Prokushal",
+write_page("why-nsp.html", "Why NSP — NoboShakti Prokushal",
            "Why clients choose NSP: in-house engineering team, verified credentials, code-first delivery, own workshop and after-sales support.",
            "why-nsp.html", why_body)
 
@@ -1205,7 +1205,7 @@ collaboration_body = page_header(
     </div>
   </section>
 """
-write_page("collaboration.html", "Collaboration — Nobo Shakti Prokushal (NSP)",
+write_page("collaboration.html", "Collaboration — NoboShakti Prokushal (NSP)",
            "Collaborate with NSP: sister concerns (NeoMed, PT Sun Moon Ecosystem), partner companies, joint ventures, subcontracting, supply and research.",
            "collaboration.html", collaboration_body)
 
@@ -1244,7 +1244,7 @@ contact_body = page_header(
         <input type="hidden" name="_subject" value="NSP Website Inquiry" />
         <input type="hidden" name="_captcha" value="false" />
         <input type="hidden" name="_template" value="table" />
-        <input type="hidden" name="_autoresponse" value="Thank you for contacting Nobo Shakti Prokushal (NSP). Your inquiry has been received — our team will respond within one business day. — NSP, Dhaka | +880 1714 073604 | www.noboshaktiprokushal.com" />
+        <input type="hidden" name="_autoresponse" value="Thank you for contacting NoboShakti Prokushal (NSP). Your inquiry has been received — our team will respond within one business day. — NSP, Dhaka | +880 1714 073604 | www.noboshaktiprokushal.com" />
         <div>
           <label class="font-body text-xs uppercase tracking-[0.15em] text-kaleo-earth/60" for="name">Your Name</label>
           <input id="name" name="name" required class="mt-2 w-full bg-kaleo-sand border border-kaleo-earth/15 rounded-xl px-4 py-3.5 font-body text-sm text-kaleo-earth focus:outline-none focus:border-kaleo-terracotta" />
@@ -1281,7 +1281,7 @@ contact_body = page_header(
     </div>
   </section>
 """
-write_page("contact.html", "Contact — Nobo Shakti Prokushal (NSP)",
+write_page("contact.html", "Contact — NoboShakti Prokushal (NSP)",
            "Contact NSP: phone, WhatsApp, email and inquiry form for engineering products, design services, installation projects and collaboration in Bangladesh.",
            "contact.html", contact_body)
 

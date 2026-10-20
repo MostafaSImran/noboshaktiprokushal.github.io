@@ -46,6 +46,7 @@ NAV_ITEMS = [
     ("projects.html", "Projects"),
     ("signature.html", "Signature Projects"),
     ("why-nsp.html", "Why NSP"),
+    ("academy.html", "NSP Academy"),
     ("collaboration.html", "Collaboration"),
     ("contact.html", "Contact"),
 ]

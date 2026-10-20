@@ -13,6 +13,7 @@ export default defineConfig({
         why: resolve(__dirname, 'why-nsp.html'),
         collaboration: resolve(__dirname, 'collaboration.html'),
         contact: resolve(__dirname, 'contact.html'),
+        academy: resolve(__dirname, 'academy.html'),
       },
     },
   },

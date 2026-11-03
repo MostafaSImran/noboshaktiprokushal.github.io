@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Products — NoboShakti Prokushal (NSP)</title>
-  <meta name="description" content="NSP products: customized vehicle body structures (bus body, caravan, golf cart), Sound Pod acoustic pods, capsule homes, solar home systems and biogas & bio-fuel systems." />
+  <meta name="description" content="NSP products: customized vehicle body structures (bus body, caravan, golf cart), Sound Pod acoustic pods, capsule homes, solar home systems, clean-air solar food dryers and biogas & bio-fuel systems." />
   <link rel="icon" href="profile/nsp-mark.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -70,7 +70,7 @@
     <div class="max-w-7xl mx-auto px-6 md:px-8 py-20 md:py-28 text-center reveal visible">
       <span class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-terracotta">NSP Product Lines</span>
       <h1 class="font-display text-4xl md:text-6xl text-kaleo-earth mt-4 leading-tight">Engineered Products, Built In-House</h1>
-      <p class="font-body text-base md:text-lg text-kaleo-earth/70 leading-relaxed max-w-2xl mx-auto mt-6">Five product lines designed and fabricated by NSP — from vehicle body structures to capsule homes, solar and biogas-bio-fuel systems.</p>
+      <p class="font-body text-base md:text-lg text-kaleo-earth/70 leading-relaxed max-w-2xl mx-auto mt-6">Six product lines designed and fabricated by NSP — from vehicle body structures to capsule homes, solar food dryers, solar and biogas-bio-fuel systems.</p>
     </div>
   </section>
 
@@ -328,6 +328,36 @@
 
   <section class="bg-kaleo-cream py-16 md:py-24 border-t border-kaleo-earth/10">
     <div class="max-w-7xl mx-auto px-6 md:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div class="reveal">
+          <span class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-terracotta">Product 06 · New</span>
+          <h2 class="font-display text-3xl md:text-5xl text-kaleo-earth mt-3">Clean-Air Solar Food Dryers</h2>
+          <p class="font-body text-base text-kaleo-earth/70 leading-relaxed mt-5">
+            HEPA-filtered, 100% solar-DC cabinet dryers for fruit, vegetables, herbs and spices — hospital-grade clean-air engineering with zero fuel cost. Two models: the fixed NSP-SD12 (M1) rooftop dryer and the mobile, hybrid-ready NSP-M2.
+          </p>
+          <ul class="mt-6 space-y-3">
+            <li class="flex items-start gap-3"><span class="text-kaleo-terracotta mt-1">—</span><span class="font-body text-sm text-kaleo-earth/75">Three-stage G4 → F7 → H13 HEPA filtration with sealed, positive-pressure air path</span></li>
+            <li class="flex items-start gap-3"><span class="text-kaleo-terracotta mt-1">—</span><span class="font-body text-sm text-kaleo-earth/75">12 × SS304 food-grade mesh trays (4.9 m²), indirect 50–60 °C drying for better colour and nutrients</span></li>
+            <li class="flex items-start gap-3"><span class="text-kaleo-terracotta mt-1">—</span><span class="font-body text-sm text-kaleo-earth/75">NSP-M2 adds a 1.5 kW PTC hybrid heater for 24-hour, year-round drying</span></li>
+          </ul>
+          <div class="flex flex-wrap gap-4 mt-7">
+            <a href="solar-dryer.html" class="inline-block font-body text-sm uppercase tracking-[0.12em] bg-kaleo-earth text-kaleo-cream rounded-full px-7 py-3.5 hover:bg-kaleo-terracotta transition-colors">View Details &amp; 3D Models</a>
+            <a href="papers/nsp-solar-dryer-catalog-2026.pdf" download class="inline-flex items-center gap-2 font-body text-sm uppercase tracking-wider text-kaleo-cream bg-kaleo-terracotta rounded-full px-7 py-3.5 hover:opacity-90 transition-opacity">⬇ Download Catalog</a>
+          </div>
+          <p class="font-body text-xs text-kaleo-earth/40 mt-2">PDF · 20 pages · models, specifications and drawings</p>
+        </div>
+        <div class="reveal">
+          <div class="rounded-3xl overflow-hidden border border-kaleo-earth/10 shadow-xl bg-white">
+            <img src="solar-dryer/m2-iso-se.webp" alt="NSP-M2 mobile solar-hybrid food dryer with solar collector and PV roof" class="w-full object-cover" loading="lazy" />
+          </div>
+          <p class="font-body text-xs text-kaleo-earth/50 mt-3 text-center">NSP-M2 mobile solar-hybrid dryer — one wheeled unit: collector, HEPA filter box, 12-tray cabinet and PV roof</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-kaleo-cream py-16 md:py-24 border-t border-kaleo-earth/10">
+    <div class="max-w-7xl mx-auto px-6 md:px-8">
       <div class="text-center max-w-2xl mx-auto reveal">
         <span class="font-body text-xs uppercase tracking-[0.2em] text-kaleo-terracotta">For Prospective Clients</span>
         <h2 class="font-display text-3xl md:text-5xl text-kaleo-earth mt-4">Plan Your Project</h2>
@@ -459,6 +489,13 @@
           { key: 'feedstock', label: 'Waste type', type: 'select', options: ['Poultry litter & waste', 'Cattle / dairy waste', 'Organic / food waste', 'Industrial effluent'] },
           { key: 'capacity', label: 'Expected plant capacity (kW or m³/day)' },
           { key: 'service', label: 'Service needed', type: 'select', options: ['Complete biogas plant', 'Biogas purification', 'Bi-fuel conversion', 'Consultancy & design'] }
+        ],
+        'Solar Food Dryer (NSP-SD12 M1 / NSP-M2)': [
+          { key: 'model', label: 'Model of interest', type: 'select', required: true, options: ['NSP-SD12 (M1) — rooftop, 100% solar', 'NSP-M2 — mobile solar-hybrid', 'Not sure yet — advise me'] },
+          { key: 'crops', label: 'Crops to dry (mango, chilli, herbs…)', required: true },
+          { key: 'batch_size', label: 'Expected batch size (kg fresh)' },
+          { key: 'site_location', label: 'Installation address / location' },
+          { key: 'power', label: '230 V AC available at site?', type: 'select', options: ['Yes', 'No', 'Partial / unreliable'] }
         ]
       };
 

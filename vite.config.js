@@ -14,6 +14,7 @@ export default defineConfig({
         collaboration: resolve(__dirname, 'collaboration.html'),
         contact: resolve(__dirname, 'contact.html'),
         academy: resolve(__dirname, 'academy.html'),
+        'solar-dryer': resolve(__dirname, 'solar-dryer.html'),
       },
     },
   },
